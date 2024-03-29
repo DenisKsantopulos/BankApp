@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.bankapp.ui.theme.BankAppTheme
+import com.example.bankapp.ui.theme.CardsSection
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
 class MainActivity : ComponentActivity() {
@@ -62,6 +63,8 @@ fun HomeScreen(){
                 .fillMaxSize()
                 .padding(padding)
         ) {
+            WalletSection()
+            CardsSection()
 
         }
     }
