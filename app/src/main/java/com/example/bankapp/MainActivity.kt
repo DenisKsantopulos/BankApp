@@ -64,7 +64,7 @@ fun HomeScreen(){
             WalletSection()
             CardsSection()
             FinanceSection()
-
+            CurrenciesSection()
 
         }
     }
