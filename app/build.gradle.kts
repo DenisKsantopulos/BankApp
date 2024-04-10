@@ -1,6 +1,13 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+//    id("com.google.devtools.ksp") version "1.8.10-1.0.9" apply false
+//    id("com.google.devtools.ksp")
+//    kotlin("kapt") version "1.9.23"
+//    id("kotlin-kapt")
+//    id("dagger.hilt.android.plugin")
+//    id("kotlin-parcelize")
+//    id("com.google.devtools.ksp' version '1.6.10-1.0.2")
 }
 
 android {
@@ -69,5 +76,31 @@ dependencies {
 
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.27.0")
     implementation("androidx.compose.material:material-icons-extended:1.5.4")
+
+    // OpenCSV
+    implementation("com.opencsv:opencsv:5.5.2")
+
+    // Coil
+    implementation("io.coil-kt:coil-compose:1.4.0")
+
+    //Dagger - Hilt
+    implementation("com.google.dagger:hilt-android:2.40.5")
+    //kapt("com.google.dagger:hilt-android-compiler:2.40.5")
+    implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
+    //kapt "androidx.hilt:hilt-compiler:1.0.0"
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+
+    // Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
+    implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.3")
+    implementation("com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.3")
+
+    // Room
+    implementation("androidx.room:room-runtime:2.4.2")
+    //kapt("androidx.room:room-compiler:2.4.2")
+
+    // Kotlin Extensions and Coroutines support for Room
+    implementation("androidx.room:room-ktx:2.4.2")
 
 }
