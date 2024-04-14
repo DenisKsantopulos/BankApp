@@ -1,4 +1,4 @@
-package com.example.bankapp
+package com.example.bankapp.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

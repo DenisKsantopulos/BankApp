@@ -1,4 +1,4 @@
-package com.example.bankapp
+package com.example.bankapp.presentation.main_screen.section
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -23,7 +23,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.bankapp.data.Card
+import com.example.bankapp.R
+import com.example.bankapp.presentation.main_screen.data.Card
 import com.example.bankapp.ui.theme.GreenEnd
 import com.example.bankapp.ui.theme.GreenStart
 import com.example.bankapp.ui.theme.OrangeEnd

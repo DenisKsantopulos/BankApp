@@ -1,4 +1,4 @@
-package com.example.bankapp
+package com.example.bankapp.presentation.main_screen.section
 
 import android.content.Intent
 import androidx.compose.foundation.background
@@ -8,8 +8,6 @@ import androidx.compose.material.icons.rounded.AccountCircle
 import androidx.compose.material.icons.rounded.Home
 import androidx.compose.material.icons.rounded.Notifications
 import androidx.compose.material.icons.rounded.ShowChart
-import androidx.compose.material.icons.rounded.Wallet
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -19,8 +17,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.core.content.ContextCompat.startActivity
-import com.example.bankapp.data.BottomNavigation
+import com.example.bankapp.presentation.main_screen.data.BottomNavigation
+import com.example.bankapp.presentation.StockActivity
 
 val items = listOf(
     BottomNavigation(

@@ -1,9 +1,6 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
-//    id("com.google.devtools.ksp") version "1.8.10-1.0.9" apply false
-//    id("com.google.devtools.ksp")
-//    kotlin("kapt") version "1.9.23"
 //    id("kotlin-kapt")
 //    id("dagger.hilt.android.plugin")
 //    id("kotlin-parcelize")
@@ -80,8 +77,16 @@ dependencies {
     // OpenCSV
     implementation("com.opencsv:opencsv:5.5.2")
 
+    // Compose dependencies
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.1")
+    implementation("com.google.accompanist:accompanist-flowlayout:0.17.0")
+    implementation("androidx.paging:paging-compose:1.0.0-alpha14")
+    implementation("androidx.activity:activity-compose:1.6.0-alpha01")
+    implementation("com.google.accompanist:accompanist-swiperefresh:0.24.2-alpha")
+
     // Coil
     implementation("io.coil-kt:coil-compose:1.4.0")
+    //ksp("io.github.raamcosta.compose-destinations:ksp:1.1.2-beta")
 
     //Dagger - Hilt
     implementation("com.google.dagger:hilt-android:2.40.5")

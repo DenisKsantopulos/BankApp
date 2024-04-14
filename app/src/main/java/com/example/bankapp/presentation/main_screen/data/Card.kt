@@ -1,4 +1,4 @@
-package com.example.bankapp.data
+package com.example.bankapp.presentation.main_screen.data
 
 import androidx.compose.ui.graphics.Brush
 

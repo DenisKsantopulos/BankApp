@@ -1,4 +1,4 @@
-package com.example.bankapp
+package com.example.bankapp.presentation.main_screen
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,6 +17,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.bankapp.presentation.main_screen.section.BottomNavigationBar
+import com.example.bankapp.presentation.main_screen.section.CardsSection
+import com.example.bankapp.presentation.main_screen.section.CurrenciesSection
+import com.example.bankapp.presentation.main_screen.section.FinanceSection
+import com.example.bankapp.presentation.main_screen.section.WalletSection
 import com.example.bankapp.ui.theme.BankAppTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
